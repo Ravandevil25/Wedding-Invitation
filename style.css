@@ -504,19 +504,22 @@ body {
 }
 
 .days {
-	background: linear-gradient(90deg, #b33a46, #9b313c);
+	background-color: #433878;
 }
 
 .hours {
-	background: linear-gradient(90deg, #a7c3cd, #90a9b2);
+	background-color: #FFE1FF;
+	color: black;
 }
 
 .minutes {
-	background-color: #874562;
+	background-color: #E4B1F0;
+	color: black;
 }
 
 .seconds {
-	background-color: #145689;
+	background-color: #7E60BF;
+	
 }
 
 .date {
