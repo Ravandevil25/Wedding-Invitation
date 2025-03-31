@@ -836,69 +836,7 @@ a {
   transform: scale(1.1);
 }
 
-/* RSVP Form */
-.rsvp-section {
-  max-width: 600px;
-  margin: 3rem auto;
-  padding: 30px;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
 
-.rsvp-text {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #666;
-}
-
-.rsvp-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-group input,
-.form-group select,
-.form-group textarea {
-  padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
-}
-
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
-  border-color: #d63447;
-  outline: none;
-}
-
-.form-group textarea {
-  min-height: 100px;
-  resize: vertical;
-}
-
-.rsvp-submit {
-  background-color: #d63447;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.rsvp-submit:hover {
-  background-color: #c62b3e;
-}
 
 /* Social Media Sharing */
 .social-share {
@@ -1043,30 +981,11 @@ a {
 
 .events-timeline,
 .gallery-section,
-.rsvp-section,
 .social-share {
   animation: fadeInUp 1s ease-out;
 }
 
-/* Thank You Message after RSVP */
-.thank-you-message {
-  text-align: center;
-  padding: 20px;
-  animation: fadeIn 1s ease;
-}
 
-.thank-you-message h3 {
-  font-family: 'Dancing Script', cursive;
-  color: #d63447;
-  font-size: 2.5rem;
-  margin-bottom: 15px;
-}
-
-.thank-you-message p {
-  color: #666;
-  margin-bottom: 10px;
-  line-height: 1.6;
-}
 
 @keyframes fadeIn {
   from {
